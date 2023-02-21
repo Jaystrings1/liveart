@@ -1,0 +1,68 @@
+
+        img{
+            width: auto;
+            height: 3rem;
+        }
+
+        body::before{
+            display: block;
+            content: '';
+            height: 50px;
+        }
+
+#bg{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)), url(LiveArt\ \(1\).jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+#anchor{
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    margin: auto;
+}
+
+
+.title{
+    display: flex;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    align-self: center;
+}
+
+
+
+
+
+@media (max-width:660px){
+
+    #bg{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)), url(LiveArt\ \(1\).jpeg);
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-size: cover ;
+    }
+
+    #anchor{
+        color: white;
+        text-decoration: underline;
+        text-align: center;
+        display: flex;
+
+    }
+    
+    .title{
+        display: flex;
+        top: 50%;
+        position: absolute;
+        align-self: center;
+    }
+}

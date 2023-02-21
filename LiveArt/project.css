@@ -1,0 +1,14 @@
+
+.btn{
+    justify-content: space-between;
+}
+
+#nts{
+    display: flex;
+    float: right;
+    justify-content: right;
+}
+
+.h1{
+    width: 25%;
+}
